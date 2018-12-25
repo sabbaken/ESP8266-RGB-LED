@@ -18,8 +18,8 @@
 //[MQTT settings]
     const char *mqtt_server = "m21.cloudmqtt.com";
     const int   mqtt_port   =  10083; 
-    const char *mqtt_user   = "gcccfdqc"; 
-    const char *mqtt_pass   = "IbnfGT5WbRn9";
+    const char *mqtt_user   = "***"; 
+    const char *mqtt_pass   = "***";
 
 //[LED Settings]
     #define HighBR      200
