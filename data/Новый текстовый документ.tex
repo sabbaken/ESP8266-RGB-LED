@@ -1,0 +1,39 @@
+%===========================[Settings]=============================%
+\documentclass[12pt]{article} 
+\usepackage{times}
+\usepackage[left=3.2cm, right=3.5cm, top=2.5cm, bottom=3.5cm]{geometry}
+\usepackage{colortbl}
+
+\usepackage{graphicx}  
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[]{}
+\renewcommand{\headrulewidth}{0mm}
+\fancyfoot{}
+\fancyfoot[R]{ { \textcolor[rgb]{.80, .2, .2}{\line(1,0){430}} } \sffamily \bfseries \small The Neuron  $|$ \thepage}
+
+
+%===================[Beginning of the document]====================%
+\begin{document}
+    \setcounter{page}{7}
+    
+    \noindent nonlinear. To accommodate this complexity, recent research in machine learning has attempted to build models that resemble the structures utilized by our brains. It’s essentially this body of research, commonly referred to as \emph{ deep learning} , that has had spectacular success in tackling problems in computer vision and natural language processing. These algorithms not only far surpass other kinds of machine learning algorithms, but also rival (or even exceed!) the accuracies achieved by humans.\\
+    
+    \noindent {\sffamily\bfseries\LARGE{The Neuron}} \\ 
+    
+    \noindent The foundational unit of the human brain is the neuron. A tiny piece of the brain, about the size of grain of rice, contains over 10,000 neurons, each of which forms an average of 6,000 connections with other neurons \footnote[5]{ \scriptsize Restak, Richard M. and David Grubin.\emph{The Secret Life of the Brain} . Joseph Henry Press, 2001.}. It’s this massive biological network that enables us to experience the world around us. Our goal in this section will be to use this natural structure to build machine learning models that solve problems in an analogous way. 
+    \\ \\
+    At its core, the neuron is optimized to receive information from other neurons, process this information in a unique way, and send its result to other cells. This process is summarized in \textcolor[rgb]{.75, .22, .2}{Figure 1-6} . The neuron receives its inputs along antennae-like structures called \emph{dendrites} . Each of these incoming connections is dynamically strengthened or weakened based on how often it is used (this is how we learn new concepts!), and it’s the strength of each connection that determines the contribution of the input to the neuron’s output. After being weighted by the strength of their respective connections, the inputs are summed together in the \emph{cell body} . This sum is then trans formed into a new signal that’s propagated along the cell’s axon and sent off to other neurons.\\
+
+  
+
+   {
+   \begin{flushleft}
+   \includegraphics[width=1\textwidth]{img2.png}
+        {   \itshape Figure 1-6. A functional description of a biological neuron’s structure.}
+    \end{flushleft}
+	}    	  
+
+
+\end{document}
