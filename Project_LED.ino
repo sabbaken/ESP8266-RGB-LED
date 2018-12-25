@@ -12,8 +12,8 @@
 	    
 /*===================[Settings]===================*/
 //[WiFi settings]
-    const char* ssid        = "Xiaomi_11C1";             
-    const char* password    = "GPDcauldron15";
+    const char* ssid        = "***";             
+    const char* password    = "***";
 
 //[MQTT settings]
     const char *mqtt_server = "m21.cloudmqtt.com";
