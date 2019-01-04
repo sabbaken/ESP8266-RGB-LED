@@ -14,6 +14,7 @@
 //[WiFi settings]
   const char* ssid = "***";
   const char* password = "***";
+
 //[MQTT settings]
   const char* mqtt_server = "m21.cloudmqtt.com";
   const int mqtt_port = 10083;
