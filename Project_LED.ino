@@ -10,13 +10,13 @@
 //[WiFi/MQTT settings]
 void onConnectionEstablished();
 EspMQTTClient client(
-  "Xiaomi_11C1",              // Wifi ssid
-  "GPDcauldron15",            // Wifi password
+  "***",                      // Wifi ssid
+  "***",                      // Wifi password
   "m21.cloudmqtt.com",        // MQTT broker ip
   10083,                      // MQTT broker port
-  "gcccfdqc",                 // MQTT username
-  "IbnfGT5WbRn9",             // MQTT password
-  "LED_Watch_2",                // Client name
+  "***",                      // MQTT username
+  "***",                      // MQTT password
+  "LED_Watch_2",              // Client name
   onConnectionEstablished,    // Connection established callback
   true,                       // Enable web updater
   true                        // Enable debug messages
